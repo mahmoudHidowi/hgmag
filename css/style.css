@@ -1,0 +1,530 @@
+
+/********** Template CSS (Modern Blue & Gold Corporate Version) **********/
+:root {
+    --primary: #0D6EFD; /* Royal Blue */
+    --primary-light: #5B9BFD; /* Light Blue */
+    --primary-dark: #0A58CA; /* Dark Blue */
+    --accent-gold: #FFD700; /* Rich Gold */
+    --secondary: #FFD700; /* Updated to gold instead of orange */
+    --light: #F8FAFC; /* Lighter Background */
+    --dark: #0B132B; /* Deep Navy */
+}
+    .top-bar {
+        background: #fdfcfb;
+        border-bottom: 2px solid #FDBE33;
+        font-size: 15px;
+        font-weight: 500;
+        z-index: 1030;
+        position: relative;
+    }
+
+    .top-bar .icon-box {
+        transition: all 0.3s ease-in-out;
+    }
+
+    .top-bar .icon-box:hover {
+        transform: scale(1.05);
+    }
+
+    .top-bar i {
+        font-size: 1.75rem;
+        color: #f1efeb;
+    }
+
+    .top-bar h6 {
+        margin: 0;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .top-bar span {
+        color: #555;
+        font-size: 14px;
+    }
+
+    /* هام: إذا كان العنصر التالي قريب جدًا */
+    .after-topbar-fix {
+        padding-top: 0.2px;
+        
+    }
+
+        body { font-family: 'Open Sans', 'Roboto', sans-serif; direction: rtl; }
+    .text-gold { color: #FDBE33 !important; }
+    .bg-gold { background-color: #FDBE33 !important; }
+    .btn-gold { background-color: #FDBE33; color: #d5d5d5; border: none; }
+    .btn-gold:hover { background-color: #e0a800; color: #ffffff; }
+    .navbar .nav-link.active, .navbar .nav-link:hover { color: #FDBE33 !important; }
+    .footer a.text-white-50:hover { color: #FDBE33 !important; }
+
+    
+.text-gold {
+    color: #d4af37;
+}
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+  
+.text-Blue {
+    color: var(--accent-Blue) !important;
+  }
+
+.container-fluid .bi {
+    color: var(--accent-gold) !important;
+}
+
+/* اللوغو */
+    .logo-header {
+        display: flex;
+        align-items: center;
+    }
+
+    .logo-header img {
+        height: 85px;
+        margin-left: 15px;
+        transition: transform 0.3s ease;
+    }
+
+    .logo-header img:hover {
+        transform: scale(1.1);
+    }
+
+    .logo-header span {
+        font-weight: 700;
+        font-size: 2rem;
+        color: #ffffff;
+    }
+
+/* Spacing Utilities */
+.pt-6 { padding-top: 90px; }
+.pb-6 { padding-bottom: 90px; }
+.py-6 { padding: 90px 0; }
+
+/* Button Styles */
+.btn {
+    position: relative;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 6px;
+    padding: 10px 25px;
+    background: linear-gradient(135deg, var(--primary-light), var(--primary-dark));
+    color: #fff;
+    transition: all 0.4s ease;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.btn::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 5px;
+    bottom: -1px;
+    left: 50%;
+    background: var(--accent-gold);
+    transition: .5s;
+}
+
+.btn:hover::after,
+.btn.active::after {
+    width: 50%;
+    left: 25%;
+}
+
+.btn:hover {
+    background: linear-gradient(135deg, var(--primary-dark), var(--primary-light));
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+/* Button Sizes */
+.btn-square, .btn-sm-square, .btn-lg-square {
+    padding: 0;
+    text-align: center;
+    background: var(--accent-gold);
+    color: var(--dark);
+    transition: background 0.3s ease;
+}
+
+.btn-square { width: 36px; height: 36px; }
+.btn-sm-square { width: 28px; height: 28px; }
+.btn-lg-square { width: 46px; height: 46px; }
+
+.btn-square:hover,
+.btn-sm-square:hover,
+.btn-lg-square:hover {
+    background: var(--primary);
+    color: #fff;
+}
+
+/* Back to Top Button */
+.back-to-top {
+    position: fixed;
+    display: none;
+    left: 50%;
+    bottom: 0;
+    margin-left: -22px;
+    border-radius: 0;
+    background: var(--accent-gold);
+    color: var(--dark);
+    z-index: 99;
+    transition: background 0.3s;
+}
+
+.back-to-top:hover {
+    background: var(--primary);
+    color: #fff;
+}
+
+/* Radial Backgrounds */
+.bg-dark-radial {
+    background: repeating-radial-gradient(center center, rgba(0,0,0,0.2), rgba(0,0,0,0.2) 1px, transparent 1px, transparent 100%);
+    background-size: 3px 3px;
+}
+
+.bg-light-radial {
+    background: repeating-radial-gradient(center center, rgba(255,255,255,0.2), rgba(255,255,255,0.2) 1px, transparent 1px, transparent 100%);
+    background-size: 3px 3px;
+}
+
+/* Navbar */
+.navbar-dark .navbar-nav .nav-link {
+    position: relative;
+    padding: 35px 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: var(--light);
+    transition: .3s;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
+    color: var(--accent-gold);
+}
+/* الفوتر */
+
+  .btn-gold {
+    background-color: #FDBE33;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .btn-gold:hover {
+    background-color: #e0a800;
+    color: #fff;
+    transform: scale(1.1);
+  }
+
+  .border-gold {
+    border-color: #FDBE33 !important;
+  }
+
+
+/* فريق العمل */
+.team-card-animate {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  will-change: transform;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.team-card-animate:hover {
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* زر فوق */
+.back-to-top {
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgba(253, 190, 51, 0.15); /* شفاف */
+  border: 2px solid #FDBE33;
+  color: #FDBE33;
+  font-size: 24px;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(4px);
+  box-shadow: 0 0 10px rgba(253, 190, 51, 0.3);
+  transition: all 0.3s ease;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.back-to-top:hover {
+  background-color: rgba(253, 190, 51, 0.25);
+  transform: translateX(-50%) scale(1.1);
+}
+
+.back-to-top.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.back-to-top i {
+  line-height: 1;
+}
+
+
+
+
+
+@media (max-width: 991.98px) {
+    .navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0;
+    }
+}
+
+/* Carousel */
+.carousel-caption {
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(11,19,43,0.7);
+    z-index: 1;
+}
+
+@media (max-width: 576px) {
+    .carousel-caption h4 { font-size: 18px; font-weight: 500 !important; }
+    .carousel-caption h1 { font-size: 30px; font-weight: 600 !important; }
+}
+
+/* Page Header */
+.page-header {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(11,19,43,0.7), rgba(11,19,43,0.7)), url(../img/m1.jpg) center/cover no-repeat;
+    color: #fff;
+}
+
+/* Service Section */
+.service-item .service-icon {
+    margin-top: -40px;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--primary-light), var(--primary-dark));
+    box-shadow: 0 4px 20px rgba(13, 110, 253, 0.3);
+    transition: all 0.5s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.service-item .service-icon::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    background: var(--accent-gold);
+    border-radius: 50%;
+    transition: all 0.4s ease;
+    z-index: 0;
+}
+
+.service-item .service-icon i {
+    position: relative;
+    font-size: 40px;
+    color: var(--accent-gold);
+    z-index: 1;
+    transition: transform 0.4s, color 0.4s;
+}
+
+.service-item:hover .service-icon {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 30px rgba(13, 110, 253, 0.4);
+}
+
+.service-item:hover .service-icon::after {
+    width: 180%;
+    height: 180%;
+}
+
+.service-item:hover .service-icon i {
+    transform: scale(1.2);
+    color: var(--light);
+}
+
+/* Portfolio */
+.portfolio-item {
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.portfolio-title {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 120px;
+    padding: 0 30px;
+    right: 30px;
+    left: 30px;
+    bottom: -60px;
+    background: #fff;
+    z-index: 3;
+}
+
+.portfolio-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -60px 0 0 -60px;
+    font-size: 120px;
+    line-height: 0;
+    opacity: 0;
+    transition: opacity .1s .3s;
+    z-index: 2;
+    color: var(--primary-dark);
+}
+
+.portfolio-item:hover .portfolio-btn {
+    opacity: 1;
+}
+
+.portfolio-box::before,
+.portfolio-box::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    background: rgba(11,19,43,0.7);
+    transition: .5s;
+    z-index: 1;
+}
+
+.portfolio-box::before { left: 0; }
+.portfolio-box::after { right: 0; }
+
+.portfolio-item:hover .portfolio-box::before,
+.portfolio-item:hover .portfolio-box::after {
+    width: 50%;
+}
+
+/* Testimonials & Contact */
+@media (min-width: 992px) {
+    .testimonial, .contact-form {
+        margin-left: -90px;
+    }
+}
+
+/* Footer Decoration */
+@media (min-width: 992px) {
+    .footer::after {
+        content: "";
+        position: absolute;
+        width: 1px;
+        height: 100%;
+        top: 0;
+        left: 50%;
+        background: var(--accent-gold);
+    }
+}
+
+.footer-shape::before {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 100%;
+    top: 0;
+    left: -40px;
+    background: var(--accent-gold);
+    transform: skew(40deg);
+}
+
+@media (max-width: 768px) {
+    /* الشعار */
+    .logo-header img {
+        height: 60px;
+        margin-left: 10px;
+    }
+
+    .logo-header span {
+        font-size: 1.5rem;
+    }
+
+    /* قائمة التنقل */
+    .navbar-nav {
+        background-color: #0B132B;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 10px 15px;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    /* العناوين */
+    h1, .display-3, .display-5 {
+        font-size: 24px !important;
+    }
+
+    h4, .h4 {
+        font-size: 18px !important;
+    }
+
+    /* البطاقات */
+    .team-card,
+    .service-item,
+    .portfolio-item {
+        margin-bottom: 20px;
+    }
+
+    .team-card img,
+    .portfolio-box img {
+        height: auto;
+        width: 100%;
+    }
+
+    /* رأس الصفحة */
+    .page-header {
+        height: 180px;
+        text-align: center;
+    }
+
+    .page-header h1 {
+        font-size: 22px !important;
+    }
+
+    /* السلايدر */
+    .carousel-caption h1 {
+        font-size: 24px !important;
+    }
+
+    .carousel-caption h4 {
+        font-size: 16px !important;
+    }
+
+    /* الفوتر */
+    .footer .row > div {
+        text-align: center;
+    }
+
+    .footer .btn {
+        margin-bottom: 10px;
+    }
+
+    /* زر العودة للأعلى */
+    .back-to-top {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+    }
+}
+
