@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <title> شركة الراقي للإنشاءات</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content=" ">
+    <meta name="description" content="">
+
+    <!-- أيقونة الموقع -->
+    <link href="img/alraki.ico" rel="icon">
+
+    <!-- خطوط جوجل -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- مكتبة الأيقونات -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- مكتبات التنسيقات -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- تنسيق Bootstrap مخصص -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- تنسيق القالب -->
+    <link href="css/style.css" rel="stylesheet">
+    </head>
+
+<body>
+    <!-- بداية الشريط العلوي -->
+  
+
+
+<!-- الشريط العلوي -->
+<div class="container-fluid top-bar px-5 py-2 d-none d-lg-block" dir="rtl">
+    <div class="row gx-5">
+        <!-- الموقع -->
+        <div class="col-lg-4 d-flex justify-content-center align-items-center">
+            <div class="d-flex icon-box align-items-center">
+                <i class="bi bi-geo-alt ms-3"></i>
+                <div class="text-end">
+                    <h6 class="text-uppercase">مكتبنا</h6>
+                    <span>سوريا، حلب، المحافظة</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- الإيميل -->
+        <div class="col-lg-4 d-flex justify-content-center align-items-center border-start border-end">
+            <div class="d-flex icon-box align-items-center">
+                <i class="bi bi-envelope-open ms-3"></i>
+                <div class="text-end">
+                    <h6 class="text-uppercase">راسلنا</h6>
+                    <span>Alrakqi.company2021@gmail.com</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- رقم الهاتف -->
+        <div class="col-lg-4 d-flex justify-content-center align-items-center">
+            <div class="d-flex icon-box align-items-center">
+                <i class="bi bi-phone-vibrate ms-3"></i>
+                <div class="text-end">
+                    <h6 class="text-uppercase">اتصل بنا</h6>
+                    <span>+963 345 6789</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- مثال على العنصر التالي -->
+<div class="after-topbar-fix">
+    <!-- هنا يأتي أي محتوى بعد الشريط العلوي -->
+</div>
+
+    <!-- نهاية الشريط العلوي -->
+</body>
+
+
+<!-- بداية شريط التنقل -->
+<style>
+    .navbar-custom {
+        background: rgba(0, 0, 0, 0.9); /* خلفية شفافة راقية */
+        backdrop-filter: blur(8px);
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+        z-index: 1000;
+    }
+
+    .navbar-custom .navbar-brand img {
+        height: 60px;
+        transition: transform 0.3s ease, filter 0.3s ease;
+    }
+
+    .navbar-custom .navbar-brand img:hover {
+        transform: scale(1.1);
+        filter: brightness(1.1);
+    }
+
+    .navbar-custom .nav-link {
+        color: #f8f9fa;
+        font-weight: 600;
+        font-size: 15px;
+        transition: 0.3s ease;
+    }
+
+    .navbar-custom .nav-link:hover,
+    .navbar-custom .nav-link.active {
+        color: #FDBE33 !important;
+    }
+
+    .navbar-custom .dropdown-menu {
+        background-color: #1c1c1c;
+        border: none;
+        text-align: right;
+    }
+
+    .navbar-custom .dropdown-item {
+        color: #f8f9fa;
+        font-weight: 500;
+        transition: 0.3s;
+    }
+
+    .navbar-custom .dropdown-item:hover {
+        background-color: #FDBE33;
+        color: #000;
+    }
+
+    .btn-cta {
+        background-color: #FDBE33 !important;
+        color: #000 !important;
+        font-weight: bold;
+        border-radius: 30px;
+        padding: 8px 25px;
+        transition: all 0.3s ease;
+    }
+
+    .btn-cta:hover {
+        background-color: #e0a800 !important;
+        color: #fff !important;
+    }
+</style>
+
+<!-- بداية شريط التنقل -->
+<div class="container-fluid sticky-top px-0" dir="rtl">
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom px-4 py-3">
+        <a href="index.html" class="navbar-brand d-flex align-items-center">
+            <img src="img/logo.png" alt="الراقي" class="me-2">
+            <!-- <h1 class="m-0 text-white text-uppercase d-none d-md-block">الراقي</h1> -->
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+            <div class="navbar-nav me-auto mb-2 mb-lg-0">
+                <a href="index.html" class="nav-item nav-link active">الرئيسية</a>
+                <a href="about.html" class="nav-item nav-link">من نحن</a>
+                <a href="service.html" class="nav-item nav-link">خدماتنا</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">صفحات</a>
+                    <div class="dropdown-menu text-end">
+                        <a href="project.html" class="dropdown-item">مشاريعنا</a>
+                        <a href="team.html" class="dropdown-item">فريق العمل</a>
+                        <a href="testimonial.html" class="dropdown-item">آراء العملاء</a>
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link">تواصل معنا</a>
+            </div>
+            <div class="d-none d-lg-block">
+                <a href="contact.html" class="btn btn-cta">
+                    <i class="fas fa-envelope-open-text ms-2"></i> احصل على عرض سعر
+                </a>
+            </div>
+        </div>
+    </nav>
+</div>
+<!-- نهاية شريط التنقل -->
+
+
+<!-- نهاية شريط التنقل -->
+
+    <!-- بداية السلايدر -->
+<div class="container-fluid p-0" dir="rtl">
+    <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <video class="w-100 rounded-4 shadow" autoplay muted loop playsinline>
+    <source src="img/01.mp4" type="video/mp4">
+    المتصفح لا يدعم تشغيل الفيديو.
+</video>
+
+                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                    <!-- <div class="p-3" style="max-width: 900px;">
+                        <i class="fa fa-home fa-4x text-gold mb-4 d-none d-sm-block"></i>
+                        <h1 class="display-2 text-uppercase text-white mb-md-4">ابنِ منزل أحلامك معنا</h1>
+                        <a href="contact.html" class="btn btn-gold py-md-3 px-md-5 mt-2">اطلب عرض سعر</a>
+                    </div> -->
+                </div>
+            </div>
+            <div class="carousel-item">
+                <video class="w-100 rounded-4 shadow" autoplay muted loop playsinline>
+    <source src="img/01.mp4" type="video/mp4">
+    المتصفح لا يدعم تشغيل الفيديو.
+</video>
+
+                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                    <!-- <div class="p-3" style="max-width: 900px;">
+                        <i class="fa fa-tools fa-4x text-gold mb-4 d-none d-sm-block"></i>
+                        <h1 class="display-2 text-uppercase text-white mb-md-4">ثقتكم سر نجاح مشاريعنا</h1>
+                        <a href="contact.html" class="btn btn-gold py-md-3 px-md-5 mt-2">تواصل معنا</a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">السابق</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">التالي</span>
+        </button>
+    </div>
+</div>
+<!-- نهاية السلايدر -->
+
+
+    <!-- بداية قسم من نحن -->
+<div class="container-fluid py-6 px-5" dir="rtl">
+    <div class="row g-5">
+        <div class="col-lg-7">
+            <h1 class="display-5 text-uppercase mb-4">نحن <span class="text-gold">الرواد</span> في صناعة البناء والتشييد</h1>
+            <h4 class="text-uppercase mb-3 text-body">نتميز بخبرة طويلة وجودة عالية في تنفيذ المشاريع بأعلى المعايير</h4>
+            <p>نحن ملتزمون بتقديم أفضل الخدمات لعملائنا، حيث نولي اهتمامًا كبيرًا بكل تفاصيل المشروع لضمان الجودة والدقة والسرعة في التنفيذ. خبراتنا الممتدة تجعلنا الخيار الأمثل لمشاريعكم.</p>
+            <div class="row gx-5 py-2">
+                <div class="col-sm-6 mb-2">
+                    <p class="fw-bold mb-2"><i class="fa fa-check text-gold ms-3"></i> تخطيط مثالي</p>
+                    <p class="fw-bold mb-2"><i class="fa fa-check text-gold ms-3"></i> عمالة محترفة</p>
+                    <p class="fw-bold mb-2"><i class="fa fa-check text-gold ms-3"></i> سير عمل منظم</p>
+                </div>
+                <div class="col-sm-6 mb-2">
+                    <p class="fw-bold mb-2"><i class="fa fa-check text-gold ms-3"></i> إدارة متكاملة</p>
+                    <p class="fw-bold mb-2"><i class="fa fa-check text-gold ms-3"></i> حلول مبتكرة</p>
+                    <p class="fw-bold mb-2"><i class="fa fa-check text-gold ms-3"></i> تسليم ضمن الوقت المحدد</p>
+                </div>
+            </div>
+            <p class="mb-4">نحرص دائماً على تنفيذ مشاريعنا بأعلى مستويات الجودة والاحترافية لتحقيق رضا عملائنا وثقتهم.</p>
+            <img src="img/signature.jpg" alt="توقيع المدير">
+        </div>
+        <div class="col-lg-5 pb-5" style="min-height: 400px;">
+            <div class="position-relative bg-dark-radial h-100 me-5">
+                <div class="position-relative overflow-hidden rounded-4 shadow-lg" style="height: 100%; max-height: 500px;">
+    <img 
+        src="img/ab1.jpg" 
+        alt="من نحن"
+        class="w-100 h-100 object-cover"
+        style="object-fit: cover; transition: transform 0.5s ease;"
+        onmouseover="this.style.transform='scale(1.05)';"
+        onmouseout="this.style.transform='scale(1)';"
+    >
+     <!-- إطار ذهبي رفيع اختياري -->
+                <div class="position-absolute top-0 start-0 w-100 h-100 rounded-4" style="border: 2px solid #d4af37; pointer-events: none;"></div>
+</div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- نهاية قسم من نحن -->
+
+
+
+<!-- بداية قسم الخدمات -->
+<div class="container-fluid bg-light py-6 px-5" dir="rtl">
+    <div class="text-center mx-auto mb-5" style="max-width: 600px;">
+        <h1 class="display-5 text-uppercase mb-4">نقدم لكم <span class="text-gold">أفضل</span> خدمات البناء</h1>
+    </div>
+    <div class="row g-5">
+        <div class="col-lg-4 col-md-6">
+            <div class="service-item bg-white d-flex flex-column align-items-center text-center">
+                <img class="img-fluid" src="img/service-1.jpg" alt="خدمة البناء">
+                <div class="service-icon bg-white">
+                    <i class="fa fa-3x fa-building text-white"></i>
+                </div>
+                <div class="px-4 pb-4">
+                    <h4 class="text-uppercase mb-3">بناء المباني</h4>
+                    <p>نقدم خدمات بناء متكاملة وفق أعلى معايير الجودة بكل دقة وإتقان.</p>
+                    <!-- <a class="btn text-white" href="">اقرأ المزيد <i class="bi bi-arrow-left"></i></a> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+            <div class="service-item bg-white rounded d-flex flex-column align-items-center text-center">
+                <img class="img-fluid" src="img/service-2.jpg" alt="تجديد المنازل">
+                <div class="service-icon bg-white">
+                    <i class="fa fa-3x fa-home text-white"></i>
+                </div>
+                <div class="px-4 pb-4">
+                    <h4 class="text-uppercase mb-3">تجديد المنازل</h4>
+                    <p>نقوم بتجديد وتحديث المنازل لإضفاء لمسة عصرية ومريحة تناسب تطلعاتكم.</p>
+                    <!-- <a class="btn text-white" href="">اقرأ المزيد <i class="bi bi-arrow-left"></i></a> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+            <div class="service-item bg-white rounded d-flex flex-column align-items-center text-center">
+                <img class="img-fluid" src="img/service-3.jpg" alt="تصميم معماري">
+                <div class="service-icon bg-white">
+                    <i class="fa fa-3x fa-drafting-compass text-white"></i>
+                </div>
+                <div class="px-4 pb-4">
+                    <h4 class="text-uppercase mb-3">التصميم المعماري</h4>
+                    <p>تصاميم معمارية مبتكرة تجمع بين الجمال والوظيفة لتلبي كافة احتياجاتكم.</p>
+                    <!-- <a class="btn text-white" href="">اقرأ المزيد <i class="bi bi-arrow-left"></i></a> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+            <div class="service-item bg-white rounded d-flex flex-column align-items-center text-center">
+                <img class="img-fluid" src="img/service-4.jpg" alt="تصميم داخلي">
+                <div class="service-icon bg-white">
+                    <i class="fa fa-3x fa-palette text-white"></i>
+                </div>
+                <div class="px-4 pb-4">
+                    <h4 class="text-uppercase mb-3">التصميم الداخلي</h4>
+                    <p>نحول المساحات الداخلية إلى بيئات أنيقة وعصرية تعكس ذوقكم الخاص.</p>
+                    <!-- <a class="btn text-white" href="">اقرأ المزيد <i class="bi bi-arrow-left"></i></a> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+            <div class="service-item bg-white rounded d-flex flex-column align-items-center text-center">
+                <img class="img-fluid" src="img/service-5.jpg" alt="الصيانة والدعم">
+                <div class="service-icon bg-white">
+                    <i class="fa fa-3x fa-tools text-white"></i>
+                </div>
+                <div class="px-4 pb-4">
+                    <h4 class="text-uppercase mb-3">الصيانة والدعم</h4>
+                    <p>خدمات صيانة ودعم فني مستمر للحفاظ على جودة مشاريعكم مدى الحياة.</p>
+                    <!-- <a class="btn text-white" href="">اقرأ المزيد <i class="bi bi-arrow-left"></i></a> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+            <div class="service-item bg-white rounded d-flex flex-column align-items-center text-center">
+                <img class="img-fluid" src="img/service-6.jpg" alt="الدهانات">
+                <div class="service-icon bg-white">
+                    <i class="fa fa-3x fa-paint-brush text-white"></i>
+                </div>
+                <div class="px-4 pb-4">
+                    <h4 class="text-uppercase mb-3">أعمال الدهانات</h4>
+                    <p>نقدم خدمات دهان احترافية بأجود الخامات لتحقيق أجمل النتائج لمشاريعكم.</p>
+                    <!-- <a class="btn text-white" href="">اقرأ المزيد <i class="bi bi-arrow-left"></i></a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- نهاية قسم الخدمات -->
+
+
+   <!-- بدء تحديد موعد -->
+
+  <div class="container my-5 mx-auto" style="max-width: 600px;" dir="rtl">
+  <div class="card border-warning shadow">
+    <div class="card-header bg-warning text-white text-center">
+      طلب مكالمة
+    </div>
+    <div class="card-body">
+      <form id="callForm">
+        <div class="mb-3">
+          <label for="name" class="form-label">الاسم</label>
+          <input type="text" class="form-control" id="name" name="name" placeholder="اسمك الكامل" required />
+        </div>
+        <div class="mb-3">
+          <label for="phone" class="form-label">رقم الهاتف</label>
+          <input type="tel" class="form-control" id="phone" name="phone" placeholder="مثال: 0999123456" required />
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">البريد الإلكتروني</label>
+          <input type="email" class="form-control" id="email" name="email" placeholder="بريدك الإلكتروني" required />
+        </div>
+        <div class="mb-3">
+          <label for="date" class="form-label">تاريخ الاتصال المرغوب</label>
+          <input type="date" class="form-control" id="date" name="date" required />
+        </div>
+        <div class="mb-3">
+          <label for="time" class="form-label">وقت الاتصال المرغوب</label>
+          <input type="time" class="form-control" id="time" name="time" required />
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">الرسالة</label>
+          <textarea class="form-control" id="message" name="message" rows="4" placeholder="اكتب رسالتك هنا..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-warning text-white w-100">إرسال الطلب</button>
+        <div id="formMessage" class="mt-3 text-center fw-bold"></div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- سكريبت الإرسال باستخدام fetch -->
+<script>
+document.getElementById("callForm").addEventListener("submit", async function (e) {
+  e.preventDefault(); // منع التحديث
+
+  const form = e.target;
+  const formData = new FormData(form);
+  const messageDiv = document.getElementById("formMessage");
+
+  try {
+    const response = await fetch("https://formspree.io/f/meognrwb", {
+      method: "POST",
+      headers: { Accept: "application/json" },
+      body: formData
+    });
+
+    if (response.ok) {
+      messageDiv.innerHTML = "<span class='text-success'>✅ تم إرسال الطلب بنجاح. سنقوم بالتواصل معك قريبًا.</span>";
+      form.reset();
+    } else {
+      messageDiv.innerHTML = "<span class='text-danger'>❌ حدث خطأ أثناء الإرسال. الرجاء المحاولة مرة أخرى.</span>";
+    }
+  } catch (error) {
+    messageDiv.innerHTML = "<span class='text-danger'>⚠️ تعذر الاتصال بالخادم.</span>";
+  }
+});
+</script>
+
+
+
+
+<!-- انتهاء تحديد موعد -->
+
+
+
+   <!-- بدء المعرض -->
+<div class="container-fluid bg-light py-6 px-5" dir="rtl">
+    <div class="text-center mx-auto mb-5" style="max-width: 600px;">
+        <h1 class="display-5 text-uppercase mb-4">بعض من <span class="text-gold">مشاريعنا</span> المميزة</h1>
+    </div>
+    <div class="row gx-5">
+        <div class="col-12 text-center">
+            <div class="d-inline-block bg-dark-radial text-center pt-4 px-5 mb-5">
+                <ul class="list-inline mb-0" id="portfolio-flters">
+                    <li class="btn btn-outline-primary bg-white p-2 active mx-2 mb-4" data-filter="*">
+                        <div class="position-relative">
+                            <img src="img/portfolio-1.jpg" style="width: 150px; height: 100px;">
+                            <div class="position-absolute top-0 start-0 end-0 bottom-0 m-2 d-flex align-items-center justify-content-center" style="background: rgba(4, 15, 40, .3);">
+                                <h6 class="text-white text-uppercase m-0">الكل</h6>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="btn btn-outline-primary bg-white p-2 mx-2 mb-4" data-filter=".first">
+                        <div class="position-relative">
+                            <img src="img/portfolio-2.jpg" style="width: 150px; height: 100px;">
+                            <div class="position-absolute top-0 start-0 end-0 bottom-0 m-2 d-flex align-items-center justify-content-center" style="background: rgba(4, 15, 40, .3);">
+                                <h6 class="text-white text-uppercase m-0">البناء</h6>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="btn btn-outline-primary bg-white p-2 mx-2 mb-4" data-filter=".second">
+                        <div class="position-relative">
+                            <img src="img/portfolio-3.jpg" style="width: 150px; height: 100px;">
+                            <div class="position-absolute top-0 start-0 end-0 bottom-0 m-2 d-flex align-items-center justify-content-center" style="background: rgba(4, 15, 40, .3);">
+                                <h6 class="text-white text-uppercase m-0">التجديد</h6>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="row g-5 portfolio-container">
+        <div class="col-xl-4 col-lg-6 col-md-6 portfolio-item first">
+            <div class="position-relative portfolio-box">
+                <img class="img-fluid w-100" src="img/portfolio-1.jpg" alt="">
+                <a class="portfolio-title shadow-sm" href="">
+                    <p class="h4 text-uppercase">اسم المشروع</p>
+                    <span class="text-body"><i class="fa fa-map-marker-alt text-gold me-2"></i>الموقع، المدينة، البلد</span>
+                </a>
+                <a class="portfolio-btn" href="img/portfolio-1.jpg" data-lightbox="portfolio">
+                    <i class="bi bi-plus text-white"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-xl-4 col-lg-6 col-md-6 portfolio-item second">
+            <div class="position-relative portfolio-box">
+                <img class="img-fluid w-100" src="img/portfolio-2.jpg" alt="">
+                <a class="portfolio-title shadow-sm" href="">
+                    <p class="h4 text-uppercase">اسم المشروع</p>
+                    <span class="text-body"><i class="fa fa-map-marker-alt text-gold me-2"></i>الموقع، المدينة، البلد</span>
+                </a>
+                <a class="portfolio-btn" href="img/portfolio-2.jpg" data-lightbox="portfolio">
+                    <i class="bi bi-plus text-white"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-xl-4 col-lg-6 col-md-6 portfolio-item first">
+            <div class="position-relative portfolio-box">
+                <img class="img-fluid w-100" src="img/portfolio-3.jpg" alt="">
+                <a class="portfolio-title shadow-sm" href="">
+                    <p class="h4 text-uppercase">اسم المشروع</p>
+                    <span class="text-body"><i class="fa fa-map-marker-alt text-gold me-2"></i>الموقع، المدينة، البلد</span>
+                </a>
+                <a class="portfolio-btn" href="img/portfolio-3.jpg" data-lightbox="portfolio">
+                    <i class="bi bi-plus text-white"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-xl-4 col-lg-6 col-md-6 portfolio-item second">
+            <div class="position-relative portfolio-box">
+                <img class="img-fluid w-100" src="img/portfolio-4.jpg" alt="">
+                <a class="portfolio-title shadow-sm" href="">
+                    <p class="h4 text-uppercase">اسم المشروع</p>
+                    <span class="text-body"><i class="fa fa-map-marker-alt text-gold me-2"></i>الموقع، المدينة، البلد</span>
+                </a>
+                <a class="portfolio-btn" href="img/portfolio-4.jpg" data-lightbox="portfolio">
+                    <i class="bi bi-plus text-white"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-xl-4 col-lg-6 col-md-6 portfolio-item first">
+            <div class="position-relative portfolio-box">
+                <img class="img-fluid w-100" src="img/portfolio-5.jpg" alt="">
+                <a class="portfolio-title shadow-sm" href="">
+                    <p class="h4 text-uppercase">اسم المشروع</p>
+                    <span class="text-body"><i class="fa fa-map-marker-alt text-gold me-2"></i>الموقع، المدينة، البلد</span>
+                </a>
+                <a class="portfolio-btn" href="img/portfolio-5.jpg" data-lightbox="portfolio">
+                    <i class="bi bi-plus text-white"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-xl-4 col-lg-6 col-md-6 portfolio-item second">
+            <div class="position-relative portfolio-box">
+                <img class="img-fluid w-100" src="img/portfolio-6.jpg" alt="">
+                <a class="portfolio-title shadow-sm" href="">
+                    <p class="h4 text-uppercase">اسم المشروع</p>
+                    <span class="text-body"><i class="fa fa-map-marker-alt text-gold me-2"></i>الموقع، المدينة، البلد</span>
+                </a>
+                <a class="portfolio-btn" href="img/portfolio-6.jpg" data-lightbox="portfolio">
+                    <i class="bi bi-plus text-white"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- انتهاء المعرض -->
+
+
+
+   <!-- فريق العمل بداية -->
+<!-- بداية قسم فريق العمل بتأثيرات فخمة -->
+<section class="team-section py-5" style="background-color: #ffffff;" dir="rtl">
+  <div class="container text-center">
+    <h2 class="mb-5 display-5 text-uppercase">
+      <span class="text-gold">فريق</span> العمل
+    </h2>
+    <div class="row justify-content-center g-4">
+      <!-- بطاقة العضو 1 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card border-0 shadow text-center h-100 team-card-animate">
+          <img src="img/t1.png" class="card-img-top" alt="يوسف رزوق">
+          <div class="card-body">
+            <h5 class="card-title text-uppercase fw-bold">يوسف رزوق</h5>
+            <p class="card-text text-muted">الرئيس التنفيذي</p>
+          </div>
+        </div>
+      </div>
+            <!-- بطاقة العضو 16 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card border-0 shadow text-center h-100 team-card-animate">
+          <img src="img/t1.png" class="card-img-top" alt="خالد هنداوي">
+          <div class="card-body">
+            <h5 class="card-title text-uppercase fw-bold">خالد هنداوي</h5>
+            <p class="card-text text-muted">مدير القسم المالي</p>
+          </div>
+        </div>
+      </div>
+
+            <!-- بطاقة العضو 15 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card border-0 shadow text-center h-100 team-card-animate">
+          <img src="img/t1.png" class="card-img-top" alt="ابراهيم غندورة">
+          <div class="card-body">
+            <h5 class="card-title text-uppercase fw-bold">ابراهيم غندورة</h5>
+            <p class="card-text text-muted">مدير العلاقات العامة</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- بطاقة العضو 2 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card border-0 shadow text-center h-100 team-card-animate">
+          <img src="img/t1.png" class="card-img-top" alt="محمود هنداوي">
+          <div class="card-body">
+            <h5 class="card-title text-uppercase fw-bold">محمود هنداوي</h5>
+            <p class="card-text text-muted">مهندس برمجيات</p>
+          </div>
+        </div>
+      </div>
+      <!-- بطاقة العضو 3 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card border-0 shadow text-center h-100 team-card-animate">
+          <img src="img/t1.png" class="card-img-top" alt="بسيم غنوم">
+          <div class="card-body">
+            <h5 class="card-title text-uppercase fw-bold">بسيم غنوم</h5>
+            <p class="card-text text-muted">مهندس مدني</p>
+          </div>
+        </div>
+      </div>
+      <!-- بطاقة العضو 4 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card border-0 shadow text-center h-100 team-card-animate">
+          <img src="img/t1.png" class="card-img-top" alt="محمد خالد المؤيد">
+          <div class="card-body">
+            <h5 class="card-title text-uppercase fw-bold">محمد خالد المؤيد</h5>
+            <p class="card-text text-muted">مهندس مدني</p>
+          </div>
+        </div>
+      </div>
+
+       <!-- بطاقة العضو 5 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card border-0 shadow text-center h-100 team-card-animate">
+          <img src="img/t1.png" class="card-img-top" alt="محمد حاج حسين">
+          <div class="card-body">
+            <h5 class="card-title text-uppercase fw-bold">محمد حاج حسين</h5>
+            <p class="card-text text-muted">مهندس مدني (قسم الطبوغرافيا)</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- بطاقة العضو 6 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card border-0 shadow text-center h-100 team-card-animate">
+          <img src="img/t1.png" class="card-img-top" alt="أحمد حمشو عيدو">
+          <div class="card-body">
+            <h5 class="card-title text-uppercase fw-bold">أحمد حمشو عيدو</h5>
+            <p class="card-text text-muted">مهندس مدني</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- س -->
+    </div>
+  </div>
+</section>
+<!-- نهاية قسم فريق العمل -->
+
+
+
+
+<!--
+   بداية آراء العملاء 
+<div class="container-fluid bg-light py-6 px-5" dir="rtl">
+    <div class="text-center mx-auto mb-5" style="max-width: 600px;">
+        <h1 class="display-5 text-uppercase mb-4">
+            ماذا يقول <span class="text-primary">عملاؤنا السعداء</span> عنا؟
+        </h1>
+    </div>
+    <div class="row gx-0 align-items-center">
+        <div class="col-xl-4 col-lg-5 d-none d-lg-block">
+            <img class="img-fluid w-100 h-100 rounded-3 shadow-sm" src="img/testimonial.jpg" alt="آراء العملاء">
+        </div>
+        <div class="col-xl-8 col-lg-7 col-md-12">
+            <div class="testimonial bg-white p-4 rounded-3 shadow-sm">
+                <div class="owl-carousel testimonial-carousel">
+                    
+                    <div class="row gx-4 align-items-center">
+                        <div class="col-xl-4 col-lg-5 col-md-5 mb-4 mb-md-0">
+                            <img class="img-fluid w-100 h-100 bg-light p-lg-3 rounded-3" src="img/testimonial-1.jpg" alt="صورة العميل">
+                        </div>
+                        <div class="col-xl-8 col-lg-7 col-md-7">
+                            <h4 class="text-uppercase mb-1">أحمد </h4>
+                            <p class="text-muted mb-2">مدير مشروع</p>
+                            <p class="fs-5 mb-0">
+                                <i class="fa fa-2x fa-quote-right text-primary ms-2"></i>
+                                فريق رائع وخدمة ممتازة. أنصح الجميع بالتعامل معهم، حيث يجمعون بين الاحترافية والالتزام بالمواعيد.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row gx-4 align-items-center">
+                        <div class="col-xl-4 col-lg-5 col-md-5 mb-4 mb-md-0">
+                            <img class="img-fluid w-100 h-100 bg-light p-lg-3 rounded-3" src="img/testimonial-2.jpg" alt="صورة العميل">
+                        </div>
+                        <div class="col-xl-8 col-lg-7 col-md-7">
+                            <h4 class="text-uppercase mb-1">سارة </h4>
+                            <p class="text-muted mb-2">مهندسة معمارية</p>
+                            <p class="fs-5 mb-0">
+                                <i class="fa fa-2x fa-quote-right text-primary ms-2"></i>
+                                تجربة رائعة بكل المقاييس! جودة العمل كانت تفوق توقعاتي، وفريق الدعم كان متعاون وسريع الاستجابة.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+نهاية آراء العملاء  -->
+
+
+   <!-- بداية قسم المدونة -->
+<!-- <div class="container-fluid py-6 px-5" dir="rtl">
+    <div class="text-center mx-auto mb-5" style="max-width: 600px;">
+        <h1 class="display-5 text-uppercase mb-4">
+            أحدث <span class="text-gold">المقالات</span> من مدونتنا
+        </h1>
+    </div>
+    <div class="row g-5">
+        
+        <div class="col-lg-4 col-md-6">
+            <div class="bg-light">
+                <img class="img-fluid" src="img/blog-1.jpg" alt="صورة المقال">
+                <div class="p-4">
+                    <div class="d-flex justify-content-between mb-4">
+                        <div class="d-flex align-items-center">
+                            <img class="rounded-circle ms-2" src="img/user.jpg" width="35" height="35" alt="صورة الكاتب">
+                            <span>محمد </span>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <span class="me-3"><i class="far fa-calendar-alt text-gold ms-2"></i>01 يناير, 2045</span>
+                        </div>
+                    </div>
+                    <h4 class="text-uppercase mb-3">عنوان المقال الأول بشكل أنيق وجذاب</h4>
+                    <a class="text-uppercase fw-bold text-gold" href="">اقرأ المزيد <i class="bi bi-arrow-left"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+            <div class="bg-light">
+                <img class="img-fluid" src="img/blog-2.jpg" alt="صورة المقال">
+                <div class="p-4">
+                    <div class="d-flex justify-content-between mb-4">
+                        <div class="d-flex align-items-center">
+                            <img class="rounded-circle ms-2" src="img/user.jpg" width="35" height="35" alt="صورة الكاتب">
+                            <span>أحمد </span>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <span class="me-3"><i class="far fa-calendar-alt text-gold ms-2"></i>01 يناير, 2045</span>
+                        </div>
+                    </div>
+                    <h4 class="text-uppercase mb-3">كيفية النجاح في إدارة المشاريع الحديثة</h4>
+                    <a class="text-gold fw-bold" href="">اقرأ المزيد <i class="bi bi-arrow-left"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+            <div class="bg-light">
+                <img class="img-fluid" src="img/blog-3.jpg" alt="صورة المقال">
+                <div class="p-4">
+                    <div class="d-flex justify-content-between mb-4">
+                        <div class="d-flex align-items-center">
+                            <img class="rounded-circle ms-2" src="img/user.jpg" width="35" height="35" alt="صورة الكاتب">
+                            <span>سعاد </span>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <span class="me-3"><i class="far fa-calendar-alt text-gold ms-2"></i>01 يناير, 2045</span>
+                        </div>
+                    </div>
+                    <h4 class="text-uppercase mb-3">أحدث اتجاهات التصميم الداخلي لعام 2045</h4>
+                    <a class="text-uppercase fw-bold text-gold" href="">اقرأ المزيد <i class="bi bi-arrow-left"></i></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div> -->
+<!-- نهاية قسم المدونة -->
+
+    
+
+<!-- بداية الفوتر الفاخر -->
+<footer class="bg-dark text-white pt-5 pb-3" dir="rtl">
+  <div class="container">
+    <div class="row gy-4 align-items-start">
+      
+      <!-- معلومات الشركة -->
+      <div class="col-md-6">
+        <a href="index.html" class="d-flex align-items-center mb-3 text-white text-decoration-none">
+       <img src="img/logo.png" alt="شعار شركة الراقي" style="height: 50px;" class="ms-2">
+       <h2 class="m-0 text-uppercase">الراقي</h2>
+        </a>
+        <p class="small text-white-50">شركة رائدة في مجال الإنشاءات تقدم حلولاً هندسية عالية الجودة وفق أعلى المعايير الاحترافية.</p>
+        <ul class="list-unstyled small text-white-50 mb-0">
+          <li><i class="fa fa-map-marker-alt ms-2 text-gold"></i> سرمدا – سوريا</li>
+          <li><i class="fa fa-phone-alt ms-2 text-gold"></i> +963 345 6789</li>
+          <li><i class="fa fa-envelope ms-2 text-gold"></i> Alrakqi.company2021@gmail.com</li>
+        </ul>
+      </div>
+
+      <!-- روابط سريعة -->
+      <div class="col-md-3">
+        <h5 class="text-white mb-3">روابط</h5>
+        <ul class="list-unstyled text-white-50 small mb-0">
+          <li><a href="index.html" class="text-white-50 text-decoration-none d-block py-1">الرئيسية</a></li>
+          <li><a href="about.html" class="text-white-50 text-decoration-none d-block py-1">من نحن</a></li>
+          <li><a href="service.html" class="text-white-50 text-decoration-none d-block py-1">خدماتنا</a></li>
+          <li><a href="team.html" class="text-white-50 text-decoration-none d-block py-1">فريق العمل</a></li>
+          <li><a href="contact.html" class="text-white-50 text-decoration-none d-block py-1">اتصل بنا</a></li>
+        </ul>
+      </div>
+
+      <!-- وسائل التواصل -->
+      <div class="col-md-3">
+        <h5 class="text-white mb-3">تابعنا</h5>
+        <div class="d-flex gap-2">
+          <a href="#" class="btn btn-gold btn-sm rounded-circle"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="btn btn-gold btn-sm rounded-circle"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="btn btn-gold btn-sm rounded-circle"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" class="btn btn-gold btn-sm rounded-circle"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center mt-4 border-top border-gold pt-3 small text-white-50">
+      &copy; 2025 شركة الراقي للإنشاءات. جميع الحقوق محفوظة.
+    </div>
+  </div>
+</footer>
+
+
+    <!-- Back to Top -->
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center">
+  <i class="bi bi-arrow-up"></i>
+</a>
+
+
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
+
+<!-- <footer class="footer bg-dark text-white text-center py-4">
+  <p class="mb-0">&copy; 2025 شركة الراقي للمقاولات. جميع الحقوق محفوظة.</p>
+</footer> -->
