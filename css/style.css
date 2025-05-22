@@ -1,0 +1,1109 @@
+
+/********** Template CSS (Modern Blue & Gold Corporate Version) **********/
+:root {
+    --primary: #0D6EFD; /* Royal Blue */
+    --primary-light: #5B9BFD; /* Light Blue */
+    --primary-dark: #0A58CA; /* Dark Blue */
+    --accent-gold: #FFD700; /* Rich Gold */
+    --secondary: #FFD700; /* Updated to gold instead of orange */
+    --light: #F8FAFC; /* Lighter Background */
+    --dark: #0B132B; /* Deep Navy */
+}
+
+/* indix */
+   .navbar-custom {
+    background: rgba(0, 0, 0, 0.9); /* خلفية شفافة راقية */
+    backdrop-filter: blur(8px);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+}
+
+.navbar-custom .navbar-brand img {
+    height: 70px; /* تم تكبيره قليلاً لاحترافية أكبر */
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.navbar-custom .navbar-brand img:hover {
+    transform: scale(1.08);
+    filter: brightness(1.1);
+}
+
+.navbar-custom .nav-link {
+    color: #f8f9fa;
+    font-weight: 600;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.navbar-custom .nav-link:hover,
+.navbar-custom .nav-link.active {
+    color: #FFD700 !important; /* الذهبي الراقي */
+}
+
+/* ✅ القائمة المنسدلة بتنسيق حديث */
+.navbar-custom .dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.95); /* أسود شفاف */
+    border: none;
+    border-radius: 10px;
+    padding: 10px 0;
+    text-align: right;
+    min-width: 180px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(6px);
+}
+
+.navbar-custom .dropdown-item {
+    color: #f8f9fa;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 10px 20px;
+    transition: background 0.3s, color 0.3s;
+    border-radius: 6px;
+}
+
+.navbar-custom .dropdown-item:hover,
+.navbar-custom .dropdown-item:focus {
+    background-color: #FFD700;
+    color: #000;
+}
+
+
+    .btn-cta {
+        background-color: #FDBE33 !important;
+        color: #000 !important;
+        font-weight: bold;
+        border-radius: 30px;
+        padding: 8px 25px;
+        transition: all 0.3s ease;
+    }
+
+    .btn-cta:hover {
+        background-color: #e0a800 !important;
+        color: #fff !important;
+    }
+
+
+    /* قسم اراء العملاء */
+        .testimonial-section {
+        background-color: #f8f9fa;
+        padding: 60px 20px;
+        font-family: 'Cairo', sans-serif;
+    }
+
+    .testimonial-section h2 {
+        text-align: center;
+        font-size: 2.5rem;
+        margin-bottom: 40px;
+        color: #1e1e2f;
+    }
+
+    .testimonial-section h2 span {
+        color: #d4af37; /* الذهبي */
+    }
+
+    .testimonial-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .testimonial-card {
+        background: #ffffff;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        padding: 25px;
+        text-align: center;
+        flex: 1 1 300px;
+        max-width: 360px;
+        transition: transform 0.3s ease;
+    }
+
+    .testimonial-card:hover {
+        transform: translateY(-5px);
+    }
+
+    .testimonial-card img {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 3px solid #d4af37;
+        margin-bottom: 15px;
+    }
+
+    .testimonial-card h4 {
+        color: #003366;
+        font-size: 1.1rem;
+        margin-bottom: 5px;
+    }
+
+    .testimonial-card small {
+        color: #777;
+        font-size: 0.9rem;
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    .testimonial-card p {
+        font-size: 0.95rem;
+        color: #444;
+        line-height: 1.6;
+    }
+/* نهاية قسم اراء العملاء */
+    .top-bar {
+        background: #fdfcfb;
+        border-bottom: 2px solid #FDBE33;
+        font-size: 15px;
+        font-weight: 500;
+        z-index: 1030;
+        position: relative;
+    }
+
+    .top-bar .icon-box {
+        transition: all 0.3s ease-in-out;
+    }
+
+    .top-bar .icon-box:hover {
+        transform: scale(1.05);
+    }
+
+    .top-bar i {
+        font-size: 1.75rem;
+        color: #f1efeb;
+    }
+
+    .top-bar h6 {
+        margin: 0;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .top-bar span {
+        color: #555;
+        font-size: 14px;
+    }
+
+    /* هام: إذا كان العنصر التالي قريب جدًا */
+    .after-topbar-fix {
+        padding-top: 0.2px;
+        
+    }
+
+        body { font-family: 'Open Sans', 'Roboto', sans-serif; direction: rtl; }
+    .text-gold { color: #FDBE33 !important; }
+    .bg-gold { background-color: #FDBE33 !important; }
+    .btn-gold { background-color: #FDBE33; color: #d5d5d5; border: none; }
+    .btn-gold:hover { background-color: #e0a800; color: #ffffff; }
+    .navbar .nav-link.active, .navbar .nav-link:hover { color: #FDBE33 !important; }
+    .footer a.text-white-50:hover { color: #FDBE33 !important; }
+
+    
+.text-gold {
+    color: #d4af37;
+}
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+  
+.text-Blue {
+    color: var(--accent-Blue) !important;
+  }
+
+.container-fluid .bi {
+    color: var(--accent-gold) !important;
+}
+
+/* اللوغو */
+    .logo-header {
+        display: flex;
+        align-items: center;
+    }
+
+    .logo-header img {
+        height: 85px;
+        margin-left: 15px;
+        transition: transform 0.3s ease;
+    }
+
+    .logo-header img:hover {
+        transform: scale(1.1);
+    }
+
+    .logo-header span {
+        font-weight: 700;
+        font-size: 2rem;
+        color: #ffffff;
+    }
+
+/* Spacing Utilities */
+.pt-6 { padding-top: 90px; }
+.pb-6 { padding-bottom: 90px; }
+.py-6 { padding: 90px 0; }
+
+/* Button Styles */
+.btn {
+    position: relative;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 6px;
+    padding: 10px 25px;
+    background: linear-gradient(135deg, var(--primary-light), var(--primary-dark));
+    color: #fff;
+    transition: all 0.4s ease;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.btn::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 5px;
+    bottom: -1px;
+    left: 50%;
+    background: var(--accent-gold);
+    transition: .5s;
+}
+
+.btn:hover::after,
+.btn.active::after {
+    width: 50%;
+    left: 25%;
+}
+
+.btn:hover {
+    background: linear-gradient(135deg, var(--primary-dark), var(--primary-light));
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+/* Button Sizes */
+.btn-square, .btn-sm-square, .btn-lg-square {
+    padding: 0;
+    text-align: center;
+    background: var(--accent-gold);
+    color: var(--dark);
+    transition: background 0.3s ease;
+}
+
+.btn-square { width: 36px; height: 36px; }
+.btn-sm-square { width: 28px; height: 28px; }
+.btn-lg-square { width: 46px; height: 46px; }
+
+.btn-square:hover,
+.btn-sm-square:hover,
+.btn-lg-square:hover {
+    background: var(--primary);
+    color: #fff;
+}
+
+/* Back to Top Button */
+.back-to-top {
+    position: fixed;
+    display: none;
+    left: 50%;
+    bottom: 0;
+    margin-left: -22px;
+    border-radius: 0;
+    background: var(--accent-gold);
+    color: var(--dark);
+    z-index: 99;
+    transition: background 0.3s;
+}
+
+.back-to-top:hover {
+    background: var(--primary);
+    color: #fff;
+}
+
+/* Radial Backgrounds */
+.bg-dark-radial {
+    background: repeating-radial-gradient(center center, rgba(0,0,0,0.2), rgba(0,0,0,0.2) 1px, transparent 1px, transparent 100%);
+    background-size: 3px 3px;
+}
+
+.bg-light-radial {
+    background: repeating-radial-gradient(center center, rgba(255,255,255,0.2), rgba(255,255,255,0.2) 1px, transparent 1px, transparent 100%);
+    background-size: 3px 3px;
+}
+
+/* Navbar */
+.navbar {
+  direction: rtl;
+  justify-content: space-between;
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+    position: relative;
+    padding: 35px 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: var(--light);
+    transition: .3s;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
+    color: var(--accent-gold);
+}
+/* الفوتر */
+
+  .btn-gold {
+    background-color: #FDBE33;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .btn-gold:hover {
+    background-color: #e0a800;
+    color: #fff;
+    transform: scale(1.1);
+  }
+
+  .border-gold {
+    border-color: #FDBE33 !important;
+  }
+
+
+/* فريق العمل */
+.team-card-animate {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  will-change: transform;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.team-card-animate:hover {
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* زر فوق */
+.back-to-top {
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgba(253, 190, 51, 0.15); /* شفاف */
+  border: 2px solid #FDBE33;
+  color: #FDBE33;
+  font-size: 24px;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(4px);
+  box-shadow: 0 0 10px rgba(253, 190, 51, 0.3);
+  transition: all 0.3s ease;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.back-to-top:hover {
+  background-color: rgba(253, 190, 51, 0.25);
+  transform: translateX(-50%) scale(1.1);
+}
+
+.back-to-top.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.back-to-top i {
+  line-height: 1;
+}
+ 
+/* Dropdown */
+.dropdown-menu .dropdown-item.active {
+    background-color: #d4af37 !important; /* اللون الذهبي */
+    color: #fff !important;
+}
+
+/* روابط سريعة */
+
+    .footer-links h5 {
+        font-size: 1.4rem;
+        color: #fff;
+        margin-bottom: 20px;
+        border-bottom: 2px solid #d4af37;
+        display: inline-block;
+        padding-bottom: 5px;
+    }
+
+    .footer-links ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .footer-links li {
+        margin-bottom: 10px;
+        position: relative;
+        padding-right: 20px;
+    }
+
+    .footer-links li::before {
+        content: "›";
+        color: #d4af37;
+        position: absolute;
+        right: 0;
+        top: 0;
+        font-weight: bold;
+    }
+
+    .footer-links a {
+        color: #bbb;
+        text-decoration: none;
+        transition: all 0.3s ease;
+    }
+
+    .footer-links a:hover {
+        color: #d4af37;
+        padding-right: 5px;
+    }
+
+/* وسائل التواصل */
+  .footer-social h5 {
+    font-size: 1.25rem;
+    color: #fff;
+    font-weight: bold;
+    border-bottom: 2px solid #d4af37;
+    display: inline-block;
+    padding-bottom: 6px;
+    margin-bottom: 15px;
+  }
+
+  .footer-social .social-icons a {
+    width: 38px;
+    height: 38px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    margin-inline-end: 8px;
+    background-color: #d4af37;
+    color: #0d1b2a;
+    border-radius: 50%;
+    transition: 0.3s ease;
+  }
+
+  .footer-social .social-icons a:hover {
+    background-color: #f0ca52;
+    color: #000;
+  }
+
+  /* معلومات الشركة في الفوتر */
+  .footer-brand h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ffffff;
+    border-bottom: 2px solid #d4af37;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+  }
+
+  .footer-brand p {
+    color: #bbb;
+    font-size: 0.95rem;
+    line-height: 1.7;
+    margin-bottom: 20px;
+  }
+
+  .footer-brand ul li {
+    margin-bottom: 10px;
+    color: #ccc;
+    font-size: 0.95rem;
+  }
+
+  .footer-brand ul i {
+    color: #d4af37;
+    margin-left: 8px;
+  }
+
+  /* زر العود للاعلى */
+.back-to-top {
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: rgba(212, 175, 55, 0.15); /* ذهبي شفاف جدًا */
+    color: #fff;
+    border: 2px solid rgba(212, 175, 55, 0.5); /* إطار ذهبي شفاف */
+    border-radius: 50%;
+    font-size: 20px;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(4px); /* ضبابية خفيفة */
+    transition: all 0.3s ease;
+  }
+
+  .back-to-top:hover {
+    background-color: rgba(212, 175, 55, 0.3);
+    border-color: rgba(212, 175, 55, 0.8);
+    transform: translateX(-50%) scale(1.1);
+  }
+
+  .back-to-top i {
+    font-size: 24px;
+    line-height: 1;
+  }
+
+@media (max-width: 991.98px) {
+
+    .navbar-brand {
+    margin-right: 0;
+    margin-left: auto;
+  }
+
+  .navbar-brand img {
+    display: block;
+  }
+
+    .navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0;
+    }
+}
+
+/* Carousel */
+.carousel-caption {
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(11,19,43,0.7);
+    z-index: 1;
+}
+
+@media (max-width: 576px) {
+    .carousel-caption h4 { font-size: 18px; font-weight: 500 !important; }
+    .carousel-caption h1 { font-size: 30px; font-weight: 600 !important; }
+}
+
+/* Page Header */
+.page-header {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(11,19,43,0.7), rgba(11,19,43,0.7)), url(../img/m1.jpg) center/cover no-repeat;
+    color: #fff;
+}
+
+/* Service Section */
+.service-item .service-icon {
+    margin-top: -40px;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--primary-light), var(--primary-dark));
+    box-shadow: 0 4px 20px rgba(13, 110, 253, 0.3);
+    transition: all 0.5s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.service-item .service-icon::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    background: var(--accent-gold);
+    border-radius: 50%;
+    transition: all 0.4s ease;
+    z-index: 0;
+}
+
+.service-item .service-icon i {
+    position: relative;
+    font-size: 40px;
+    color: var(--accent-gold);
+    z-index: 1;
+    transition: transform 0.4s, color 0.4s;
+}
+
+.service-item:hover .service-icon {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 30px rgba(13, 110, 253, 0.4);
+}
+
+.service-item:hover .service-icon::after {
+    width: 180%;
+    height: 180%;
+}
+
+.service-item:hover .service-icon i {
+    transform: scale(1.2);
+    color: var(--light);
+}
+
+/* Portfolio */
+.portfolio-item {
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.portfolio-title {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 120px;
+    padding: 0 30px;
+    right: 30px;
+    left: 30px;
+    bottom: -60px;
+    background: #fff;
+    z-index: 3;
+}
+
+.portfolio-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -60px 0 0 -60px;
+    font-size: 120px;
+    line-height: 0;
+    opacity: 0;
+    transition: opacity .1s .3s;
+    z-index: 2;
+    color: var(--primary-dark);
+}
+
+.portfolio-item:hover .portfolio-btn {
+    opacity: 1;
+}
+
+.portfolio-box::before,
+.portfolio-box::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    background: rgba(11,19,43,0.7);
+    transition: .5s;
+    z-index: 1;
+}
+
+.portfolio-box::before { left: 0; }
+.portfolio-box::after { right: 0; }
+
+.portfolio-item:hover .portfolio-box::before,
+.portfolio-item:hover .portfolio-box::after {
+    width: 50%;
+}
+@media (max-width: 576px) {
+  /* ✅ الشعار */
+  .navbar-brand {
+    margin-right: 0;
+    margin-left: auto;
+  }
+
+  .navbar-brand img {
+    display: block;
+  }
+
+  .logo-header img{
+    height: 50px;
+    margin-left: 8px;
+  }
+
+  .logo-header span {
+    font-size: 1.4rem;
+  }
+
+  /* ✅ قائمة التنقل */
+ 
+  .navbar-nav {
+    background: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(6px);
+    padding: 12px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  }
+
+
+
+  .navbar-nav .nav-link {
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  /* ✅ القائمة المنسدلة */
+  .navbar-custom .dropdown-menu {
+    background: rgba(0, 0, 0, 0.95);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 0;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(6px);
+    text-align: right;
+  }
+
+  .navbar-custom .dropdown-item {
+    color: #f8f9fa;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.3s;
+  }
+
+  .navbar-custom .dropdown-item:hover {
+    background-color: #FFD700;
+    color: #000;
+  }
+
+  /* ✅ زر العودة للأعلى */
+  .back-to-top {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    left: 50% !important;
+    right: auto !important;
+    transform: translateX(-50%) !important;
+    margin-left: 0 !important;
+  }
+
+  /* ✅ الفلاتر */
+  #portfolio-flters {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 0;
+  }
+
+  #portfolio-flters li {
+    width: 80%;
+    max-width: 220px;
+    margin: 0 auto;
+  }
+
+  #portfolio-flters li img {
+    width: 100% !important;
+    height: auto !important;
+    border-radius: 8px;
+  }
+
+  #portfolio-flters li .position-absolute {
+    font-size: 14px;
+    padding: 4px 8px;
+  }
+
+  /* ✅ قسم آراء العملاء */
+  .testimonial-section {
+    padding: 40px 10px;
+  }
+
+  .testimonial-card {
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+
+  /* ✅ رأس الصفحة */
+  .page-header {
+    height: 180px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .page-header h1 {
+    font-size: 20px !important;
+  }
+
+  /* ✅ الكاروسيل */
+  .carousel-caption {
+    padding: 10px;
+  }
+
+  .carousel-caption h1 {
+    font-size: 24px !important;
+  }
+
+  .carousel-caption h4 {
+    font-size: 16px !important;
+  }
+
+  /* ✅ الأزرار */
+  .btn,
+  .btn-cta {
+    padding: 8px 20px;
+    font-size: 14px;
+  }
+
+  /* ✅ الفوتر */
+  .footer .row > div {
+    text-align: center !important;
+    margin-bottom: 20px;
+  }
+
+  .footer .btn {
+    margin-bottom: 10px;
+  }
+
+  .footer-brand {
+    text-align: right !important;
+  }
+
+  .footer-brand h2,
+  .footer-links h5,
+  .footer-social h5 {
+    font-size: 1.3rem;
+  }
+
+  .footer-brand p,
+  .footer-links a,
+  .footer-brand ul li {
+    font-size: 0.9rem;
+  }
+
+  .footer-brand ul {
+    padding-right: 0;
+    text-align: right;
+  }
+
+  .footer-brand ul li {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    direction: rtl;
+    font-size: 15px;
+  }
+
+  .footer-brand ul li i {
+    margin-left: 8px;
+    margin-right: 0;
+    font-size: 16px;
+    color: var(--accent-gold);
+  }
+
+  /* ✅ البطاقات */
+  .team-card,
+  .service-item,
+  .portfolio-item {
+    margin-bottom: 20px;
+    max-width: 100%;
+  }
+
+  .team-card img,
+  .portfolio-box img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* ✅ العناوين */
+  h1, .display-3, .display-5 {
+    font-size: 22px !important;
+  }
+
+  h4, .h4 {
+    font-size: 18px !important;
+  }
+}
+@media (max-width: 768px) {
+
+  /* ✅ الشعار */
+  .navbar-brand {
+    margin-right: 0;
+    margin-left: auto;
+  }
+
+  .navbar-brand img {
+    display: block;
+  }
+
+  .logo-header img {
+    height: 60px;
+    margin-left: 10px;
+  }
+
+  .logo-header span {
+    font-size: 1.5rem;
+  }
+
+  /* ✅ قائمة التنقل */
+  .navbar-nav {
+    background: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(6px);
+    padding: 12px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  }
+
+  .navbar-nav .nav-link {
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  /* ✅ الترويسة */
+  .page-header {
+    height: 200px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .page-header h1 {
+    font-size: 22px !important;
+  }
+
+  /* ✅ العناوين */
+  h1, .display-3, .display-5 {
+    font-size: 24px !important;
+  }
+
+  h4, .h4 {
+    font-size: 18px !important;
+  }
+
+  /* ✅ قسم آراء العملاء */
+  .testimonial-section h2 {
+    font-size: 1.8rem;
+  }
+
+  /* ✅ البطاقات */
+  .testimonial-card,
+  .team-card,
+  .portfolio-item,
+  .service-item {
+    margin-bottom: 25px;
+    max-width: 100%;
+  }
+
+  .team-card img,
+  .portfolio-box img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* ✅ زر CTA */
+  .btn-cta {
+    padding: 6px 20px;
+    font-size: 14px;
+  }
+
+  /* ✅ الكاروسيل */
+  .carousel-caption h1 {
+    font-size: 26px !important;
+  }
+
+  .carousel-caption h4 {
+    font-size: 16px !important;
+  }
+
+  /* ✅ الفوتر */
+  .footer .row > div {
+    text-align: center !important;
+    margin-bottom: 20px;
+  }
+
+  .footer .btn {
+    margin-bottom: 10px;
+  }
+
+  .footer-social .social-icons a {
+    margin: 5px;
+    width: 36px;
+    height: 36px;
+  }
+
+  /* ✅ زر العودة للأعلى */
+  .back-to-top {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+}
+@media (max-width: 991.98px) {
+  /* ✅ الشعار */
+  .logo-header img {
+    height: 60px;
+    margin-left: 10px;
+  }
+
+  .logo-header span {
+    font-size: 1.6rem;
+  }
+
+  /* ✅ قائمة التنقل */
+  .navbar-nav {
+    background: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(6px);
+    padding: 12px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  }
+
+  .navbar-nav .nav-link {
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  /* ✅ الترويسة */
+  .page-header {
+    height: 200px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  /* ✅ البطاقات */
+  .testimonial-card,
+  .team-card,
+  .portfolio-item,
+  .service-item {
+    margin-bottom: 25px;
+    max-width: 100%;
+  }
+
+  .team-card img,
+  .portfolio-box img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* ✅ الفوتر */
+  .footer .row > div {
+    text-align: center !important;
+    margin-bottom: 20px;
+  }
+
+  .footer .btn {
+    margin-bottom: 10px;
+  }
+
+  /* ✅ زر العودة للأعلى */
+  .back-to-top {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+  .navbar-brand {
+    margin-right: 0;
+    margin-left: auto;
+  }
+
+  .navbar-brand img {
+    display: block;
+  }
+}
+
+
+
